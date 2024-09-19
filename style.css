@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+*{
+  background-color: #F0E2C5;  
+  margin:0;
+  padding:o;
+  box-sizing: border-box;
+}
+
+/*header section */
+#header{
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+#header h1{
+  font-family: "Playfair Display Sc",serif;  
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+#header p{
+  line-height: 1.5rem;
+  padding: 10px 0;
+}
+
+.header-btn{
+  font-family: lato;
+  background-color: #49281a;
+  display: block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+/*nav-bar section */
+nav{
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+nav ul,nav li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+nav a{
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+  color: #F0E2C5;
+  border-radius:8px;
+  border :1px solid #49281a;
+  font-weight: 400;
+  background-color: #49281a;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2{
+  font-family: "Playfair Display Sc",serif;
+  text-align: center;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  color: #49281a;
+}
+
+p{
+  font-family: lato;
+}
+
+/*menu section*/
+#menu{
+ margin: 0px 100px;
+}
+
+.coffee-section h3,.snack-section h3{
+  font-family: lato;
+  font-size: 18px;
+  margin: 0px 70px;
+}
+
+.card{
+  border-radius: 10px;
+  border: 1px solid #000;
+  width: 230px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+  gap:15px; 
+}
+
+.card-text{
+  line-height: 1.5;
+}
+
+.card-title{
+  padding: 10px 0px;
+}
+
+.card-context{
+  margin-top: 10px;
+}
+
+.card-button{
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background-color: #49281a;
+  margin: 10px auto;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.price{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.img-card-top{
+  max-width: 100%;
+  border-radius: 10px;
+  height: 200px;
+}
+
+/*about section */
+#about{
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2.5rem;
+  padding: 10px 0px;
+}
+
+#about h2{
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*contact section*/
+#contact {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+#contact p{
+  padding: 10px 0px;
+}
+
+form{
+  margin-top: 30px;
+}
+
+input,textarea{
+  width: 30%;
+  padding: 10px 0;
+  border: 1px solid #49281a;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 13px;
+}
+
+.message-box{
+  display: flex;
+}
+
+textarea{
+  margin-left: 2px;
+  padding: 0px ;
+}
+
+.btn{
+  width: 180px;
+  background-color: #49281a;
+  margin: 10px 100px;
+  color: #fff;
+  padding: 10px;
+}
+
+/*footer section */
+footer{
+  margin: 30px 0;
+  padding: 50px 0;
+  text-align: center;
+  border-top: 1px solid #000;
+  font-family: lato;
+}
+
+footer .icon {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer i{
+  color: #49281a;
+  font-size: larger;
+  padding: 0px 10px;
+}
+
+/* up button section */
+.up{
+  border-radius: 100%;
+  border: 3px solid #49281a;
+  background-color:#F0E2C5;
+  color: #49281a;
+  text-decoration: none;
+  padding:15px 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+/* responsive section */
+@media screen and (max-width:1300px) {
+  .coffee-section h3,.snack-section h3{
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width:1024px){
+  #menu{
+    margin: 0px 20px;
+  }
+  .card-box{
+    justify-content: space-between;
+    padding: 0px 8px;
+  }
+}
+
+@media  screen and (max-width:768px) {
+  #menu{
+    margin: 0 10px;
+  }
+  .card-box{
+    gap: 5px;
+  }
+  .card{
+    padding: 5px;
+  }
+}
